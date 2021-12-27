@@ -2,6 +2,7 @@ import Header from "./Header";
 import MainContentBlock from "./MainContentBlock";
 import InfoBlock from "./InfoBlock";
 import Sponsors from "./Sponsors";
+import Footer from "./Footer";
 
 const mainContentData = {
     title: "Get Ready to Build",
@@ -152,6 +153,7 @@ function Homepage() {
             <InfoBlock title={fringeData.title} info={fringeData.info} features={fringeData.features} />
             <InfoBlock features={popUpData.features} />
             <Sponsors />
+            <Footer />
         </>
 
     )
