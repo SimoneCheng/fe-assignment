@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/fe-assignment/static/css/main.7bad30e2.css",
-    "main.js": "/fe-assignment/static/js/main.00890084.js",
+    "main.css": "/fe-assignment/static/css/main.fcd9486e.css",
+    "main.js": "/fe-assignment/static/js/main.abc0fa8e.js",
     "static/js/787.8cdf53e7.chunk.js": "/fe-assignment/static/js/787.8cdf53e7.chunk.js",
+    "static/media/tiffani.png": "/fe-assignment/static/media/tiffani.f3f2abe62d6912114d97.png",
+    "static/media/kirby.png": "/fe-assignment/static/media/kirby.0edebecbd0ca347e94b4.png",
+    "static/media/robin.png": "/fe-assignment/static/media/robin.b3e8f56813d059dc5e7f.png",
+    "static/media/ethan.png": "/fe-assignment/static/media/ethan.9b4bd3d54ee61b075843.png",
+    "static/media/mandy.png": "/fe-assignment/static/media/mandy.fc3d45b45a8cab0b345a.png",
+    "static/media/rob.png": "/fe-assignment/static/media/rob.fc203f12f458baedd7e8.png",
+    "static/media/jeff.png": "/fe-assignment/static/media/jeff.6beb3c9a1054d5f85168.png",
+    "static/media/shopify.png": "/fe-assignment/static/media/shopify.a1f3c87882dd42310b99.png",
+    "static/media/mailchimp.png": "/fe-assignment/static/media/mailchimp.b49797e9d2a3424be153.png",
+    "static/media/dropbox.png": "/fe-assignment/static/media/dropbox.f11ae690343847395c97.png",
     "index.html": "/fe-assignment/index.html",
-    "main.7bad30e2.css.map": "/fe-assignment/static/css/main.7bad30e2.css.map",
-    "main.00890084.js.map": "/fe-assignment/static/js/main.00890084.js.map",
+    "main.fcd9486e.css.map": "/fe-assignment/static/css/main.fcd9486e.css.map",
+    "main.abc0fa8e.js.map": "/fe-assignment/static/js/main.abc0fa8e.js.map",
     "787.8cdf53e7.chunk.js.map": "/fe-assignment/static/js/787.8cdf53e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bad30e2.css",
-    "static/js/main.00890084.js"
+    "static/css/main.fcd9486e.css",
+    "static/js/main.abc0fa8e.js"
   ]
 }
