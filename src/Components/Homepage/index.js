@@ -1,3 +1,4 @@
+import Header from "./Header";
 import MainContentBlock from "./MainContentBlock";
 import InfoBlock from "./InfoBlock";
 
@@ -143,6 +144,7 @@ const popUpData = {
 function Homepage() {
     return (
         <>
+            <Header />
             <MainContentBlock title={mainContentData.title} info={mainContentData.info} date={mainContentData.date} conferenceSpeakers={conferenceSpeakerData} />
             <InfoBlock title={workshopData.title} info={workshopData.info} features={workshopData.features} />
             <InfoBlock title={festivalData.title} info={festivalData.info} features={festivalData.features} />
