@@ -3,11 +3,12 @@ import InfoFeature from "./InfoFeature";
 
 function InfoBlock({ title, info, features }) {
     return (
-        <section className="py-14">
+        <section>
             {title && info && <InfoTitle title={title} info={info} />}
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap max-w-7xl mx-auto">
                 {features && features.map((item) => <InfoFeature image={item.img} slogan={item.slogan} subtitle={item.subtitle} content={item.content} />)}
             </div>
+            <div className="h-5 mt-14 bg-[url('https://2012.buildconf.com/images/section_divider.png')]"></div>
         </section>
     )
 }

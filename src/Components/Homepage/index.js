@@ -1,4 +1,45 @@
+import Header from "./Header";
+import MainContentBlock from "./MainContentBlock";
 import InfoBlock from "./InfoBlock";
+import Sponsors from "./Sponsors";
+import Footer from "./Footer";
+
+const mainContentData = {
+    title: "Get Ready to Build",
+    date: "NOVEMBER 12-16, 2012 IN BELFAST, NORTHERN IRELAND",
+    info: "Build is a festival for people who design for the web. For one week in November, a community of smart, talented people come together to share ideas, tell stories, get their hands dirty, and drink a few beers."
+}
+
+const conferenceSpeakerData = [
+    {
+        profileImg: "./images/robin.png",
+        name: "Robin Sloan"
+    },
+    {
+        profileImg: "./images/kirby.png",
+        name: "Kirby Ferguson"
+    },
+    {
+        profileImg: "./images/rob.png",
+        name: "Rob Giampietro"
+    },
+    {
+        profileImg: "./images/mandy.png",
+        name: "Mandy Brown"
+    },
+    {
+        profileImg: "./images/jeff.png",
+        name: "Jeff Veen"
+    },
+    {
+        profileImg: "./images/tiffani.png",
+        name: "Tiffani Jones Brown"
+    },
+    {
+        profileImg: "./images/ethan.png",
+        name: "Ethan Marcotte"
+    }
+]
 
 const workshopData = {
     title: "Workshop",
@@ -9,7 +50,7 @@ const workshopData = {
             slogan: "BEST MADE COMPANY",
             subtitle: "Axe Restoration",
             content: "Join Best Made Co. for a two-day workshop on axe restoration, maintenance and use. We’ll end with a communal campfire and more axe and timber lore."
-        }, 
+        },
         {
             img: "./images/leathercraft.png",
             slogan: "BILLYKIRK",
@@ -90,13 +131,11 @@ const fringeData = {
 const popUpData = {
     features: [
         {
-            img: null,
             slogan: "POP-UP SHOP",
             subtitle: "Draft Supply Co.",
             content: "New to Build in 2012 is the Draft Supply Co. pop-up shop, stocking quality goods for the discerning digital craftsman. Low on stationary, need a gift, or feel like picking up some Build swag? We’re open for business."
         },
         {
-            img: null,
             slogan: "POP-UP CAFE",
             subtitle: "The Black Box",
             content: "We’ll be establishing a base of operations at The Black Box on Hill Street, right at the epicentre of the Build festivities. Our pop-up cafe will serve a full menu all day, offer free wifi, and will be staffed by Build volunteers who’ll be constantly on hand to answer any questions."
@@ -107,10 +146,14 @@ const popUpData = {
 function Homepage() {
     return (
         <>
+            <Header />
+            <MainContentBlock title={mainContentData.title} info={mainContentData.info} date={mainContentData.date} conferenceSpeakers={conferenceSpeakerData} />
             <InfoBlock title={workshopData.title} info={workshopData.info} features={workshopData.features} />
             <InfoBlock title={festivalData.title} info={festivalData.info} features={festivalData.features} />
             <InfoBlock title={fringeData.title} info={fringeData.info} features={fringeData.features} />
             <InfoBlock features={popUpData.features} />
+            <Sponsors />
+            <Footer />
         </>
 
     )
