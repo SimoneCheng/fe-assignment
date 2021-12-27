@@ -1,6 +1,7 @@
 import Header from "./Header";
 import MainContentBlock from "./MainContentBlock";
 import InfoBlock from "./InfoBlock";
+import Sponsors from "./Sponsors";
 
 const mainContentData = {
     title: "Get Ready to Build",
@@ -150,6 +151,7 @@ function Homepage() {
             <InfoBlock title={festivalData.title} info={festivalData.info} features={festivalData.features} />
             <InfoBlock title={fringeData.title} info={fringeData.info} features={fringeData.features} />
             <InfoBlock features={popUpData.features} />
+            <Sponsors />
         </>
 
     )

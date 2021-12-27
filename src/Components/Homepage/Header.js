@@ -41,7 +41,6 @@ function Header() {
                     {navLinkData.map((item) => <NavLink time={item.time} topic={item.topic} />)}
                 </nav>
                 <div className="text-4xl mr-5 cursor-pointer md:hidden" onClick={() => setIsDisplayed(!isDisplayed)}>☰</div>
-
             </header>
             {isDisplayed &&
                 <nav>
