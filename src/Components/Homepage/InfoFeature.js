@@ -4,7 +4,7 @@ function InfoFeature({image, slogan, subtitle, content}) {
           {image && <img src={require(`${image}`)} className="mx-auto"></img>}
           <h4 className="text-gray-400 text-center mt-5">{slogan}</h4>
           <h3 className="text-1xl text-center">{subtitle}</h3>
-          <p className="mt-5">{content}</p>
+          <p className="mt-5 px-10">{content}</p>
       </div>
   )
 }
