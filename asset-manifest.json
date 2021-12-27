@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fe-assignments/static/css/main.7bad30e2.css",
-    "main.js": "/fe-assignments/static/js/main.e2d350f0.js",
-    "static/js/787.8cdf53e7.chunk.js": "/fe-assignments/static/js/787.8cdf53e7.chunk.js",
-    "index.html": "/fe-assignments/index.html",
-    "main.7bad30e2.css.map": "/fe-assignments/static/css/main.7bad30e2.css.map",
-    "main.e2d350f0.js.map": "/fe-assignments/static/js/main.e2d350f0.js.map",
-    "787.8cdf53e7.chunk.js.map": "/fe-assignments/static/js/787.8cdf53e7.chunk.js.map"
+    "main.css": "/fe-assignment/static/css/main.7bad30e2.css",
+    "main.js": "/fe-assignment/static/js/main.00890084.js",
+    "static/js/787.8cdf53e7.chunk.js": "/fe-assignment/static/js/787.8cdf53e7.chunk.js",
+    "index.html": "/fe-assignment/index.html",
+    "main.7bad30e2.css.map": "/fe-assignment/static/css/main.7bad30e2.css.map",
+    "main.00890084.js.map": "/fe-assignment/static/js/main.00890084.js.map",
+    "787.8cdf53e7.chunk.js.map": "/fe-assignment/static/js/787.8cdf53e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bad30e2.css",
-    "static/js/main.e2d350f0.js"
+    "static/js/main.00890084.js"
   ]
 }
