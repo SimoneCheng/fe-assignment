@@ -1,8 +1,8 @@
 function DesktopNavLink({time, topic}) {
     return (
-        <div className="flex-grow w-1/3 pb-8">
-            <div className="text-gray-400">{time}</div>
-            <div>{topic}</div>
+        <div className="group flex-grow w-1/3 pb-8 cursor-pointer">
+            <div className="text-gray-400 group-hover:text-[#e41f3a]">{time}</div>
+            <div className="text-white">{topic}</div>
         </div>
     )
 }
