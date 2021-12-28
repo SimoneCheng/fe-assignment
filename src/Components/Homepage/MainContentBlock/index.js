@@ -42,7 +42,7 @@ function MainContentBlock({ title, info, date }) {
                     {conferenceSpeakerData.map((item) => <ConferenceSpeaker profileImg={item.profileImg} name={item.name} />)}
                 </div>
             </section>
-            <img src={require('./images/conf_bg.png')}></img>
+            <img src={require('./images/conf_bg.png')} className="w-full"></img>
         </>
     )
 
