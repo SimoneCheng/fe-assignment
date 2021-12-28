@@ -32,14 +32,18 @@ const conferenceSpeakerData = [
     }
 ]
 
-function MainContentBlock({ title, info, date}) {
+function MainContentBlock({ title, info, date }) {
     return (
-        <section className="bg-[#e41f3a]">
-            <MainContentTitle title={title} info={info} date={date} />
-            <div className="flex flex-wrap justify-center max-w-7xl mx-auto">
-                {conferenceSpeakerData.map((item) => <ConferenceSpeaker profileImg={item.profileImg} name={item.name} />)}
-            </div>
-        </section>
+        <>
+            <img src={require('./images/shadow-patt.png')} className="w-full bg-[#e41f3a]"></img>
+            <section className="bg-[#e41f3a]">
+                <MainContentTitle title={title} info={info} date={date} />
+                <div className="flex flex-wrap justify-center max-w-7xl mx-auto">
+                    {conferenceSpeakerData.map((item) => <ConferenceSpeaker profileImg={item.profileImg} name={item.name} />)}
+                </div>
+            </section>
+            <img src={require('./images/conf_bg.png')}></img>
+        </>
     )
 
 }
