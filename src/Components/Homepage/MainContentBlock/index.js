@@ -1,5 +1,6 @@
 import MainContentTitle from "./MainContentTitle";
 import ConferenceSpeaker from "./ConferenceSpeaker";
+import { useRef, useEffect } from "react";
 
 const conferenceSpeakerData = [
     {
@@ -35,7 +36,7 @@ const conferenceSpeakerData = [
 function MainContentBlock({ title, info, date }) {
     return (
         <>
-            <div className="bg-cover lg:bg-contain h-[30px] bg-repeat sticky top-0 bg-[url('https://2012.buildconf.com/images/pattern@2x.png')]"></div>
+            <div className="sticky top-0 bg-[#e41f3a] bg-cover lg:bg-contain h-[30px] bg-repeat bg-[url('https://2012.buildconf.com/images/pattern@2x.png')]"></div>
             <section className="bg-[#e41f3a]">
                 <MainContentTitle title={title} info={info} date={date} />
                 <div className="flex flex-wrap justify-center max-w-7xl mx-auto">
@@ -45,7 +46,6 @@ function MainContentBlock({ title, info, date }) {
             </section>
         </>
     )
-
 }
 
 export default MainContentBlock;
