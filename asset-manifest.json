@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fe-assignment/static/css/main.0b7632d8.css",
-    "main.js": "/fe-assignment/static/js/main.49fd9077.js",
+    "main.css": "/fe-assignment/static/css/main.76f0bcdd.css",
+    "main.js": "/fe-assignment/static/js/main.a2bc59e1.js",
     "static/media/conf_bg.png": "/fe-assignment/static/media/conf_bg.6c1897de506f61d22c2c.png",
     "static/media/tiffani.png": "/fe-assignment/static/media/tiffani.f3f2abe62d6912114d97.png",
     "static/media/kirby.png": "/fe-assignment/static/media/kirby.0edebecbd0ca347e94b4.png",
@@ -15,11 +15,11 @@
     "static/media/mailchimp.png": "/fe-assignment/static/media/mailchimp.b49797e9d2a3424be153.png",
     "static/media/dropbox.png": "/fe-assignment/static/media/dropbox.f11ae690343847395c97.png",
     "index.html": "/fe-assignment/index.html",
-    "main.0b7632d8.css.map": "/fe-assignment/static/css/main.0b7632d8.css.map",
-    "main.49fd9077.js.map": "/fe-assignment/static/js/main.49fd9077.js.map"
+    "main.76f0bcdd.css.map": "/fe-assignment/static/css/main.76f0bcdd.css.map",
+    "main.a2bc59e1.js.map": "/fe-assignment/static/js/main.a2bc59e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b7632d8.css",
-    "static/js/main.49fd9077.js"
+    "static/css/main.76f0bcdd.css",
+    "static/js/main.a2bc59e1.js"
   ]
 }
