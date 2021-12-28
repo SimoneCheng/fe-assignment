@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MobileNavLink from "./MobileNavLink";
-import NavLink from "./NavLink";
+import DesktopNavLink from "./DesktopNavLink";
 
 const navLinkData = [
     {
@@ -39,7 +39,7 @@ function Header() {
                 <div className="flex text-white justify-between items-center max-w-7xl mx-auto">
                     <img src={require('./images/logo-knockout@2x.png')} className="w-32 md:w-60"></img>
                     <nav className="ml-32 hidden md:flex md:flex-grow md:flex-wrap">
-                        {navLinkData.map((item) => <NavLink time={item.time} topic={item.topic} />)}
+                        {navLinkData.map((item) => <DesktopNavLink time={item.time} topic={item.topic} />)}
                     </nav>
                     <div className="text-2xl cursor-pointer md:hidden" onClick={() => setIsDisplayed(!isDisplayed)}>☰</div>
                 </div>

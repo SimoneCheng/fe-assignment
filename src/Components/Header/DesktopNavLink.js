@@ -1,4 +1,4 @@
-function NavLink({time, topic}) {
+function DesktopNavLink({time, topic}) {
     return (
         <div className="flex-grow w-1/3 pb-8">
             <div className="text-gray-400">{time}</div>
@@ -7,4 +7,4 @@ function NavLink({time, topic}) {
     )
 }
 
-export default NavLink;
+export default DesktopNavLink;
