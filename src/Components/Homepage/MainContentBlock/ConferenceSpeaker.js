@@ -4,7 +4,6 @@ function ConferenceSpeaker({profileImg, name}) {
             <img src={require(`${profileImg}`)}></img>
             <p className="text-[#ff9fac] group-hover:text-white">{name}</p>
         </div>
-
     )
 }
 
