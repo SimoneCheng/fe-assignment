@@ -1,37 +1,11 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { context } from "../../data/context";
 import MobileNavLink from "./MobileNavLink";
 import DesktopNavLink from "./DesktopNavLink";
 
-const navLinkData = [
-    {
-        time: "MONDAY",
-        topic: "FILM"
-    },
-    {
-        time: "TUESDAY",
-        topic: "WORKSHOPS"
-    },
-    {
-        time: "WEDNESDAY",
-        topic: "PRACTICAL"
-    },
-    {
-        time: "THURSDAY",
-        topic: "CONFERENCE"
-    },
-    {
-        time: "FRIDAY",
-        topic: "MUSIC"
-    },
-    {
-        time: "VARIOUS",
-        topic: "FRINGE"
-    }
-]
-
-
 function Header() {
     const [isDisplayed, setIsDisplayed] = useState(false);
+    const { navLinkData } = useContext(context);
 
     return (
         <>
