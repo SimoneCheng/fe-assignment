@@ -18,7 +18,7 @@ function Homepage() {
     return (
         <context.Provider value={allData}>
             <Header />
-            <MainContentBlock title={mainContentData.title} info={mainContentData.info} date={mainContentData.date} />
+            <MainContentBlock title={mainContentData.title} info={mainContentData.info} date={mainContentData.date} conferenceSpeakers={mainContentData.conferenceSpeakers} />
             <InfoBlock title={workshopData.title} info={workshopData.info} features={workshopData.features} />
             <InfoBlock title={festivalData.title} info={festivalData.info} features={festivalData.features} />
             <InfoBlock title={fringeData.title} info={fringeData.info} features={fringeData.features} />

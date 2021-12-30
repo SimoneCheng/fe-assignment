@@ -10,7 +10,7 @@ function Footer() {
             <div className="flex flex-wrap justify-center">
                 {footerLinkData.map((item) => <FooterLink slogan={item.slogan} title={item.title} linkImg={item.linkImg} />)}
             </div>
-            <div className="text-gray-400 pb-10">© 2012 ANDY MCMILLAN / DESIGN BY KYLE MEYER / DEVELOPMENT BY RIOT / ICONS BY TIM BOELAARS / REFUND POLICY</div>
+            <div className="text-[#666666] pb-10">© 2012 ANDY MCMILLAN / DESIGN BY KYLE MEYER / DEVELOPMENT BY RIOT / ICONS BY TIM BOELAARS / REFUND POLICY</div>
         </section>
     )
 }
