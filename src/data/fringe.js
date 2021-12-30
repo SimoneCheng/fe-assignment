@@ -3,24 +3,28 @@ export const fringeData = {
     info: "Our fringe events are spread throughout the week, filling the evenings with even more incredible things to do. Here’s a few to get you started.",
     features: [
         {
+            color: "border-t-[#e41f3a]",
             img: "./images/kickstarter.png",
             slogan: "AN EVENING WITH",
             subtitle: "Kickstarter",
             content: "In this lecture, Charles Adler, co-founder of Kickstarter, will tell us all about Kickstarter’s past, present, and future."
         },
         {
+            color: "border-t-[#e41f3a]",
             img: "./images/draplin.png",
             slogan: "AN EVENING WITH",
             subtitle: "Aaron Draplin",
             content: "In this evening lecture, Aaron Draplin, founder of Draplin Design Co, will share stories and lessons from his decade-long career."
         },
         {
+            color: "border-t-[#e41f3a]",
             img: "./images/beer.png",
             slogan: "2ND ANNUAL",
             subtitle: "Craft Beer Festival",
             content: "Join us for an evening of local craft beers, featuring the best local micro­breweries and our very own extra-special Build beer."
         },
         {
+            color: "border-t-[#e41f3a]",
             img: "./images/exam.png",
             slogan: "THE STANDARDISTAS’",
             subtitle: "Open Book Exam",
