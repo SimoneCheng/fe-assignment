@@ -1,25 +1,9 @@
-const sponsorsData= [
-    {
-        image: "./images/mailchimp.png"
-    },
-    {
-        image: "./images/dropbox.png"
-    },
-    {
-        image: "./images/shopify.png"
-    },
-    {
-        image: "./images/heroku.png"
-    },
-    {
-        image: "./images/typecast.png"
-    },
-    {
-        image: "./images/manual.png"
-    },
-]
+import { useContext } from "react";
+import { context } from "../../../data/context";
 
 function Sponsors() {
+    const { sponsorsData } = useContext(context);
+
     return(
         <section className="text-center pb-14">
             <p className="pt-14 pb-8 text-gray-400">THANKS TO OUR SPONSORS</p>
@@ -28,7 +12,6 @@ function Sponsors() {
             </div>
         </section>
     )
-  
 }
 
 export default Sponsors;
